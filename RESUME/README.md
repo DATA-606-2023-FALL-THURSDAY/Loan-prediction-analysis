@@ -1,6 +1,7 @@
 # Siva Sri Vasthsasa Mutukuri
 
-![image-3.png](attachment:image-3.png)
+![image](https://github.com/DATA-606-2023-FALL-THURSDAY/Mutukuri_siva/assets/113646588/f080ada5-b1dd-425a-b69e-bde5177127dc)
+
 
 ## Education
 
@@ -65,7 +66,7 @@ Amazon, Apple, Microsoft, and Google
 • Analyzed the performance history of each stock and visualized the data in various ways. 
 • Conducted risk analysis to evaluate the performance and risk of each stock.
 
-### Hobbies
+## Hobbies
 
 • Playing cricket, watching movies
 
