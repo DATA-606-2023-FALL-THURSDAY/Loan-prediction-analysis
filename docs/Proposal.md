@@ -38,60 +38,35 @@
 
 * Temporal Changes: Have there been significant changes in the rates of chronic diseases over the years in different locations? Are there any notable patterns or fluctuations?
 
-* Health Disparities: Do health disparities exist among different demographic groups (stratification categories)? For example, do certain age groups, genders, or racial/ethnic groups have higher rates of chronic diseases?
+* Health Disparities: Do health disparities exist among different demographic groups. For example among age groups and genders.
 
-* Mortality Trends: Are there trends in mortality rates related to specific chronic diseases? Have mortality rates improved or worsened over time?
 
 
 ## Data
 
-* Data Source : Source:https://data.cdc.gov/api/views/g4ie-h725/rows.csv?accessType=DOWNLOAD
-
-* Description:  The CDC's Division of Population Health has created a standardized set of 124 indicators that states, territories, and large metropolitan areas can use to collect and report chronic disease data. These indicators were developed through consensus and are important for public health practice.
-
+* Data Source : https://catalog.data.gov/dataset/u-s-chronic-disease-indicators-cdi/resource/f89aad64-f014-4e84-a1c1-cbb0d52b575a
+* Description:  The the Centers for Disease Control and Prevention (CDC) Division of Population Health has created a standardized set of 124 indicators that states, territories, and large metropolitan areas can use to collect and report chronic disease data. These indicators were developed through consensus and are important for public health practice.
+* The U.S. Chronic Disease Indicators (CDI) dataset includes data from the years 2001 to 2021.
 * Data Size : 342 MB
-
 * Data Shape : Total number of rows 1185676 , Total number of columns 34
 
 
 Data Dictionary :
 
-* YearStart: The starting year for a particular data point or record, often indicating when the data collection or observation period began.
+YearStart: the starting year of the data for a particular record (integer).
 
-* YearEnd: The ending year for a particular data point or record, indicating when the data collection or observation period concluded.
+YearEnd: the ending year of the data for a particular record (integer).
 
-* LocationAbbr: An abbreviation or code representing the geographical location or region where the data was collected.
+LocationDesc: the full name of the state or territory where the data was collected (string).
 
-* LocationDesc: The full name or description of the geographical location or region where the data was collected.
+Topic: the general topic area of the data, such as "Cancer" or "Diabetes" (string).
 
-* DataSource: The source or organization that provided the data, such as a government agency, research institution, or healthcare provider.
+Question: the specific question or aspect of health being measured by the data (string)(e.g. Alcohol use among youth, Alcohol use before pregnancy)
 
-* Topic: The overarching subject or category to which the data pertains, typically related to public health or healthcare.
+DataValue: the actual data value for a particular record (double).
 
-* Question: The specific research question or inquiry to which the data is a response.
+StratificationCategory1: a general category for the stratification variable (e.g. "Race/Ethnicity“)(string).
 
-* Response: The data or response to the research question or inquiry. This field may contain numerical values, text, or other relevant information.
+Stratification1: a specific category within the general stratification category (string).
 
-* DataValueUnit: The unit of measurement for the data values in the "Response" field, indicating how the data values are quantified (e.g., percentages, counts, rates).
 
-* DataValueType: The type or format of the data values, which can include categories like "Age-Adjusted Rate," "Crude Prevalence," or other data types.
-
-* LocationID: A unique identifier for the geographical location or region.
-
-* TopicID: A unique identifier for the topic or subject category.
-
-* QuestionID: A unique identifier for the specific research question or inquiry.
-
-* DataValueTypeID: A unique identifier for the type or format of the data values.
-
-* StratificationCategoryID1: An identifier for the first level of data stratification or categorization, which can be used to group and analyze data by different criteria.
-
-* StratificationID1: An identifier for a specific category within the first stratification level.
-
-* StratificationCategoryID2: An identifier for the second level of data stratification, if applicable.
-
-* StratificationID2: An identifier for a specific category within the second stratification level.
-
-* StratificationCategoryID3: An identifier for the third level of data stratification, if applicable.
-
-* StratificationID3: An identifier for a specific category within the third stratification level.
