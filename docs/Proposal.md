@@ -18,8 +18,6 @@
 ## Background 
 
 
-* A chronic disease is a long-lasting medical condition that can be controlled but not cured. chronic diseases are non-communicable meaning they are not infectious and cannot be transmitted from one person to another.
-
 * Chronic diseases are a major public health concern in the United States. According to the Centers for Disease Control and Prevention (CDC),  chronic diseases such as heart disease, stroke, cancer, and diabetes are the leading causes of death and disability in the US. 
 
 * U.S. Chronic Disease Indicators (CDI) is a database maintained by the Centers for Disease Control and Prevention (CDC) that provides access to state-level data on 20 over chronic disease indicators.
