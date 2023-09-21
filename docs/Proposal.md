@@ -40,7 +40,7 @@
 ## Data
 
 * Data Source : https://catalog.data.gov/dataset/u-s-chronic-disease-indicators-cdi/resource/f89aad64-f014-4e84-a1c1-cbb0d52b575a
-* Description:  The the Centers for Disease Control and Prevention (CDC) Division of Population Health has created a standardized set of 124 indicators that states, territories, and large metropolitan areas can use to collect and report chronic disease data. These indicators were developed through consensus and are important for public health practice.
+* Description:  The Centers for Disease Control and Prevention (CDC) Division of Population Health has created a standardized set of 124 indicators that states, territories, and large metropolitan areas can use to collect and report chronic disease data. These indicators were developed through consensus and are important for public health practice.
 * The U.S. Chronic Disease Indicators (CDI) dataset includes data from the years 2001 to 2021.
 * Data Size : 342 MB
 * Data Shape : Total number of rows 1185676 , Total number of columns 34
