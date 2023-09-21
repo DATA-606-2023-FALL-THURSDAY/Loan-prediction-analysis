@@ -32,14 +32,11 @@
 
 ## Research questions
 
-* Trends in Chronic Disease Prevalence: What are the trends in the prevalence of chronic diseases over the years covered by the dataset? Are certain chronic diseases becoming more or less common?
+* Trends in Chronic Disease Prevalence: What are the trends in the prevalence of chronic diseases over the years covered by the dataset?
 
 * Geographical Variations: Are there significant geographical variations in the prevalence of specific chronic diseases or health outcomes? Do certain regions have higher or lower rates of chronic conditions?
 
-* Temporal Changes: Have there been significant changes in the rates of chronic diseases over the years in different locations? Are there any notable patterns or fluctuations?
-
 * Health Disparities: Do health disparities exist among different demographic groups. For example among age groups and genders.
-
 
 
 ## Data
@@ -53,20 +50,84 @@
 
 Data Dictionary :
 
-YearStart: the starting year of the data for a particular record (integer).
+YearStart: The starting year of the data for a particular record.
 
-YearEnd: the ending year of the data for a particular record (integer).
+YearEnd: The ending year of the data for a particular record.
 
-LocationDesc: the full name of the state or territory where the data was collected (string).
+LocationAbbr: Abbreviated code representing the location where the data was collected.
 
-Topic: the general topic area of the data, such as "Cancer" or "Diabetes" (string).
+LocationDesc: Full name of the state or territory where the data was collected.
 
-Question: the specific question or aspect of health being measured by the data (string)(e.g. Alcohol use among youth, Alcohol use before pregnancy)
+DataSource: Information about the source or organization providing the data.
 
-DataValue: the actual data value for a particular record (double).
+Topic: General topic area of the data, such as "Cancer" or "Diabetes".
 
-StratificationCategory1: a general category for the stratification variable (e.g. "Race/Ethnicity“)(string).
+Question: Specific question or aspect of health being measured by the data.
 
-Stratification1: a specific category within the general stratification category (string).
+Response: This column appears to be empty or contains no data.
+
+DataValueUnit: Unit of measurement for the DataValue column.
+
+DataValueType: Type of data being recorded.
+
+DataValue: The actual data value for a particular record. 
+
+DataValueAlt: An alternative data value, represented as a floating-point number.
+
+DataValueFootnoteSymbol: Symbol related to footnotes for data values.
+
+DatavalueFootnote: Actual footnotes associated with data values.
+
+LowConfidenceLimit: Lower confidence limit for data values.
+
+HighConfidenceLimit: Upper confidence limit for data values.
+
+StratificationCategory1: General category for the stratification variable.
+
+Stratification1: Specific category within the general stratification category.
+
+StratificationCategory2: This column appears to be empty or contains no data.
+
+Stratification2: This column appears to be empty or contains no data.
+
+StratificationCategory3: This column appears to be empty or contains no data.
+
+Stratification3: This column appears to be empty or contains no data.
+
+GeoLocation: Geographic location information.
+
+ResponseID: This column appears to be empty or contains no data.
+
+LocationID: Identifier for the location where the data was collected.
+
+TopicID: Identifier for the general topic area.
+
+QuestionID: Identifier for the specific question or aspect of health.
+
+DataValueTypeID: Identifier for the type of data.
+
+StratificationCategoryID1: Identifier for the general stratification category.
+
+StratificationID1: Identifier for the specific stratification category.
+
+StratificationCategoryID2: This column appears to be empty or contains no data.
+
+StratificationID2: This column appears to be empty or contains no data.
+
+StratificationCategoryID3: This column appears to be empty or contains no data.
+
+StratificationID3: This column appears to be empty or contains no data.
+
+
+# Target Variable and Predictors
+
+Traget variable:
+The target variable is Datavalue. This column contains the actual data value for a particular record, such as the prevalence of a chronic disease in a population, the number of deaths from a chronic disease.
+
+Features:
+YearStart, YearEnd, Topic, LocationDesc, Question,StratificationCategory1,Stratification1
+
+
+
 
 
