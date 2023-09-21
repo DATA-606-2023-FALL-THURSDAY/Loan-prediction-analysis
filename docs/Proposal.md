@@ -34,7 +34,7 @@
 
 * Geographical Variations: Are there significant geographical variations in the prevalence of specific chronic diseases or health outcomes? Do certain regions have higher or lower rates of chronic conditions?
 
-* Health Disparities: Do health disparities exist among different demographic groups. For example among age groups and genders.
+* Health Disparities: Health disparities exist among different demographic groups. For example among age groups and genders.
 
 
 ## Data
