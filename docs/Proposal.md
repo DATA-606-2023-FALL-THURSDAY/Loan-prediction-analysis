@@ -1,6 +1,6 @@
 ## Title and Author
 
-* Project Title: U.S. CHRONIC DISEASE INDICATORS ANALYSIS
+* Project Title: Loan approval prediction analysis 
 
 * Prepared for UMBC Data Science Master Degree Capstone by: Dr. Chaojie (Jay) Wang
 
@@ -17,113 +17,55 @@
 
 ## Background 
 
-
-* Chronic diseases are a major public health concern in the United States. According to the Centers for Disease Control and Prevention (CDC),  chronic diseases such as heart disease, stroke, cancer, and diabetes are the leading causes of death and disability in the US. 
-
-* U.S. Chronic Disease Indicators (CDI) is a database maintained by the Centers for Disease Control and Prevention (CDC) that provides access to state-level data on 20 over chronic disease indicators.
-
-
-* The United States Chronic Disease Indicator is a crucial tool in the effort to monitor, manage, and combat chronic diseases in the United States. By standardizing the collection and exchange of health data related to chronic conditions, it plays a vital role in improving healthcare quality, patient outcomes, and public health strategies.
+In India, the surge in loan applications in recent years has posed a challenge for banks. Determining whether a customer is likely to repay a loan at a given interest rate differentiating between a "good" and a "bad" customer has become increasingly complex for bank employees. To address this, there is a pressing need for an Machine learning models that can predict loan suitability. Such a model, driven by historical data and customer attributes, has the potential to streamline the loan approval process and mitigate lending risks. It aligns with India's financial inclusion goals, aiming to facilitate responsible lending practices, spur economic growth, and enhance financial stability.
 
 
 
 
 ## Research questions
-
-* Trends in Chronic Disease Prevalence: What are the trends in the prevalence of chronic diseases over the years covered by the dataset?
-
-* Geographical Variations: Are there significant geographical variations in the prevalence of specific chronic diseases or health outcomes? Do certain regions have higher or lower rates of chronic conditions?
-
-* Health Disparities: Health disparities exist among different demographic groups. For example among age groups and genders.
-
+* What customer behavior factors are most predictive of loan repayment?
+* How can we develop machine learning models that accurately predict loan repayment based on customer behavior?
 
 ## Data
 
-* Data Source : https://catalog.data.gov/dataset/u-s-chronic-disease-indicators-cdi/resource/f89aad64-f014-4e84-a1c1-cbb0d52b575a
-* Description:  The Centers for Disease Control and Prevention (CDC) Division of Population Health has created a standardized set of 124 indicators that states, territories, and large metropolitan areas can use to collect and report chronic disease data. These indicators were developed through consensus and are important for public health practice.
-* The U.S. Chronic Disease Indicators (CDI) dataset includes data from the years 2001 to 2021.
-* Data Size : 342 MB
-* Data Shape : Total number of rows 1185676 , Total number of columns 34
+* Data Source : I am using a Kaggle dataset to predict loan defaults based on customer behavior. The dataset contains information about customer behavior and risk flags, which are indicators of how likely a customer is to default on a loan.
+* Data Link :  https://www.kaggle.com/subhamjain/loan-prediction-based-on-customer-behavior
+* Data Size : 5 MB
+* Data Shape : Total number of rows 252000 , Total number of columns 13
 
 
 Data Dictionary :
 
-YearStart: The starting year of the data for a particular record.
+income: Income of the user.
 
-YearEnd: The ending year of the data for a particular record.
+age: Age of the user.
 
-LocationAbbr: Abbreviated code representing the location where the data was collected.
+experience: Professional experience of the user in years.
 
-LocationDesc: Full name of the state or territory where the data was collected.
+profession: Profession of the user.
 
-DataSource: Information about the source or organization providing the data.
+married: Marital status of the user (e.g., "Married" or "Single").
 
-Topic: General topic area of the data, such as "Cancer" or "Diabetes".
+house_ownership: Ownership status of the user's residence (e.g., Owned, Rented, Neither).
 
-Question: Specific question or aspect of health being measured by the data.
+car_ownership: Ownership status of the user's car (e.g., Yes or No).
 
-Response: This column appears to be empty or contains no data.
+risk_flag: Indicator of loan default (e.g., "1" for defaulted, "0" for non-defaulted).
 
-DataValueUnit: Unit of measurement for the DataValue column.
+current_job_years: Years of experience in the current job.
 
-DataValueType: Type of data being recorded.
+current_house_years: Number of years in the current residence.
 
-DataValue: The actual data value for a particular record. 
+city: City of residence.
 
-DataValueAlt: An alternative data value, represented as a floating-point number.
-
-DataValueFootnoteSymbol: Symbol related to footnotes for data values.
-
-DatavalueFootnote: Actual footnotes associated with data values.
-
-LowConfidenceLimit: Lower confidence limit for data values.
-
-HighConfidenceLimit: Upper confidence limit for data values.
-
-StratificationCategory1: General category for the stratification variable.
-
-Stratification1: Specific category within the general stratification category.
-
-StratificationCategory2: This column appears to be empty or contains no data.
-
-Stratification2: This column appears to be empty or contains no data.
-
-StratificationCategory3: This column appears to be empty or contains no data.
-
-Stratification3: This column appears to be empty or contains no data.
-
-GeoLocation: Geographic location information.
-
-ResponseID: This column appears to be empty or contains no data.
-
-LocationID: Identifier for the location where the data was collected.
-
-TopicID: Identifier for the general topic area.
-
-QuestionID: Identifier for the specific question or aspect of health.
-
-DataValueTypeID: Identifier for the type of data.
-
-StratificationCategoryID1: Identifier for the general stratification category.
-
-StratificationID1: Identifier for the specific stratification category.
-
-StratificationCategoryID2: This column appears to be empty or contains no data.
-
-StratificationID2: This column appears to be empty or contains no data.
-
-StratificationCategoryID3: This column appears to be empty or contains no data.
-
-StratificationID3: This column appears to be empty or contains no data.
+state: State of residence.
 
 
 # Target Variable and Predictors
 
-Traget variable:
-The target variable is Datavalue. This column contains the actual data value for a particular record, such as the prevalence of a chronic disease in a population, the number of deaths from a chronic disease.
+Traget variable: risk_flag
 
-Features:
-YearStart, YearEnd, Topic, LocationDesc, Question,StratificationCategory1,Stratification1
+Feature Variables: All the other columns in the dataset, such as "income," "age," "experience," etc., which are used to predict the "risk_flag."
 
 
 
