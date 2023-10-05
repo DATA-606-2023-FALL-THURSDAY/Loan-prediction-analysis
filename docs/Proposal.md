@@ -24,7 +24,7 @@ In India, the surge in loan applications in recent years has posed a challenge f
 
 ## Research questions
 * What features are most important for predicting loan suitability?
-* How can we develop machine learning models that accurately predict loan repayment based on customer behavior?
+* How can we develop machine learning models that accurately predict loan approvel based on customer information?
 
 ## Data
 
