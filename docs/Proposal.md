@@ -28,7 +28,7 @@ In India, the surge in loan applications in recent years has posed a challenge f
 
 ## Data
 
-* Data Source : I am using a Kaggle dataset to predict loan defaults based on customer behavior. The dataset contains information about customer behavior and risk flags, which are indicators of how likely a customer is to default on a loan.
+* Data Source : I am using a Kaggle dataset to predict loan defaults based on customer behavior. The dataset contains information about customer and risk flags, which are indicators of how likely a customer getting loan or not.
 * Data Link :  https://www.kaggle.com/subhamjain/loan-prediction-based-on-customer-behavior
 * Data Size : 5 MB
 * Data Shape : Total number of rows 252000 , Total number of columns 13
@@ -44,7 +44,7 @@ experience: Professional experience of the user in years.
 
 profession: Profession of the user.
 
-married: Marital status of the user (e.g., "Married" or "Single").
+married/single: Marital status of the user (e.g., "Married" or "Single").
 
 house_ownership: Ownership status of the user's residence (e.g., Owned, Rented, Neither).
 
