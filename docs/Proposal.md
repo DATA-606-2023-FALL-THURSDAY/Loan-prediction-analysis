@@ -23,7 +23,7 @@ In India, the surge in loan applications in recent years has posed a challenge f
 
 
 ## Research questions
-* What customer behavior factors are most predictive of loan repayment?
+* What features are most important for predicting loan suitability?
 * How can we develop machine learning models that accurately predict loan repayment based on customer behavior?
 
 ## Data
