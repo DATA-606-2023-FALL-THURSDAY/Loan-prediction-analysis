@@ -67,14 +67,15 @@ Traget variable: risk_flag
 
 Feature Variables: All the other columns in the dataset, such as "income," "age," "experience," etc., which are used to predict the "risk_flag."
 
-## Exploratory Data Analysis
+
+# Exploratory Data Analysis
 
 #### Data Loading
 - Loaded the csv data file and read the data file.
--  Print the shape of the dataset.
+- Print the shape of the dataset.
 
 #### Data cleaing
-- Read the columns that the present in the dataset.
+- Read the columns that are present in the dataset.
 - check the null values present in the dataset.
 - Remove the unwanted columns.
 - Columns names are unevenly represented like some are in lower case and some are in upper case, so convert the all columns in lower case.
