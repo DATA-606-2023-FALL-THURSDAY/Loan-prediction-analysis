@@ -183,7 +183,7 @@ Feature Variables: All the other columns in the dataset, such as "income," "age,
 
 The future scope involves advancing the model's accuracy, exploring diverse data sources for deeper insights, and integrating automation for enhanced operational efficiency and scalability. Additionally, continuous adaptation to evolving financial landscapes and regulations will be pivotal for sustained efficacy.
 
-## conclusion
+## Conclusion
 
 - Among the all ML models Random Forest performed well
 
