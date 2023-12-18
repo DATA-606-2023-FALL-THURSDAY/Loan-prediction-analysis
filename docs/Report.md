@@ -10,7 +10,7 @@
 
 * Link to the author's LinkedIn profile: https://www.linkedin.com/in/siva-mutukuri/
 
-* Link to PowerPoint presentation file: 
+* Link to PowerPoint presentation file: https://1drv.ms/p/s!AkvRGFegaPjk3GK8xrxSOguaKDIm?e=4Bx0ts
 
 * Link to Youtube Video:
 
@@ -152,7 +152,47 @@ Feature Variables: All the other columns in the dataset, such as "income," "age,
 
   Now the dataset is balanced among the distribution between low risk and high risk factors in the riskflag column.
 
-  ## Machine Learning Models
+ ## Machine Learning Models
+
+ - Decision Tree
+
+   ![image](https://github.com/DATA-606-2023-FALL-THURSDAY/Mutukuri_siva/assets/113646588/87f59b31-afd6-4b4e-afe2-c2678c3ae517)
+
+ - Random Forest
+
+   ![image](https://github.com/DATA-606-2023-FALL-THURSDAY/Mutukuri_siva/assets/113646588/6f91ccc2-608a-46d5-a4e9-3b418cf49eb9)
+
+   
+   
+ - xgboost
+
+   ![image](https://github.com/DATA-606-2023-FALL-THURSDAY/Mutukuri_siva/assets/113646588/0c67b399-fac8-4d3d-951d-a6fe494461c0)
+
+
+
+ The Decision Tree and Random Forest models exhibit robust accuracy and balance between precision and recall, performing admirably in predicting loan defaults. However, the XGBoost model, 
+ though good, displays slightly lower accuracy. Overall, these models demonstrate potential in optimizing loan risk assessment, with the Decision Tree and Random Forest models showcasing 
+ notably higher accuracy and reliability.
+
+
+## Future Scope 
+
+The future scope involves advancing the model's accuracy, exploring diverse data sources for deeper insights, and integrating automation for enhanced operational efficiency and scalability. Additionally, continuous adaptation to evolving financial landscapes and regulations will be pivotal for sustained efficacy.
+
+## conclusion
+
+- Among the all ML models Random Forest performed well
+
+- The loan approval prediction model enhances risk assessment, reducing defaults and enhancing overall credit portfolio quality.
+
+- The model can also improve customer experience by reducing the time taken to process loan applications. This can lead to increased customer satisfaction and loyalty.
+
+
+
+
+
+  
+
 
   
 
