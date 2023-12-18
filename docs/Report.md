@@ -10,9 +10,9 @@
 
 * Link to the author's LinkedIn profile: https://www.linkedin.com/in/siva-mutukuri/
 
-* Link to PowerPoint presentation file: https://1drv.ms/p/s!AkvRGFegaPjk3GK8xrxSOguaKDIm?e=4Bx0ts
+* Link to PowerPoint presentation file: https://1drv.ms/p/s!AkvRGFegaPjk3GK8xrxSOguaKDIm?e=yoRRBn
 
-* Link to Youtube Video:
+* Link to Youtube Video: https://youtu.be/H-jEYMFjNhc
 
 
 ## Background 
