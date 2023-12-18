@@ -6,7 +6,7 @@
 
 * Author: Siva Sri Vasthsasa Mutukuri
   
-* Semester : Third Semester
+* Semester : Fall 2023
 
 * Link to the author's GitHub profile: https://github.com/DATA-606-2023-FALL-THURSDAY/Mutukuri_siva
 
