@@ -5,6 +5,8 @@
 * Prepared for UMBC Data Science Master Degree Capstone by: Dr. Chaojie (Jay) Wang
 
 * Author: Siva Sri Vasthsasa Mutukuri
+  
+* Semester : Third Semester
 
 * Link to the author's GitHub profile: https://github.com/DATA-606-2023-FALL-THURSDAY/Mutukuri_siva
 
@@ -13,6 +15,8 @@
 * Link to PowerPoint presentation file: https://1drv.ms/p/s!AkvRGFegaPjk3GK8xrxSOguaKDIm?e=yoRRBn
 
 * Link to Youtube Video: https://youtu.be/H-jEYMFjNhc
+  
+
 
 
 ## Background 
